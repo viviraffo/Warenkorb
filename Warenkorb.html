@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Shopping Cart Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+<div id="shopping-cart-container" class="flex flex-col lg:flex-row">
+  <div id="products-container">
+    <div class="card p-4">
+      <h2 class="text-2xl font-bold">Haar-Shampoo</h2>
+      <p class="quantity">3 Stück an Lager</p>
+      <p class="price">CHF 19.90</p>
+      <button class="remove-button bg-red-200 hover:bg-red-600 p-1 rounded-lg hover:text-white">Remove</button>
+    </div>
+    <div class="card p-4">
+            <h2 class="text-2xl font-bold">Rasierer</h2>
+      <p class="quantity">9 Stück an Lager</p>
+      <p class="price">CHF 5.90</p>
+      <button class="remove-button bg-red-200 hover:bg-red-600 p-1 rounded-lg hover:text-white">Remove</button>
+    </div>
+    <div id="order-summary-container" class="rounded border border-fuchsia-500 p-4">
+      <h2 class="text-lg font-bold">Order Summary</h2>
+      <p id="total" class="text-base font-semibold">Total:</p>
+      <p id="total-amount"/>
+      <a href="#" class="flex justify-center bg-blue-200 hover:bg-blue-600 block text-center hover:text-white p-1">Checkout</a>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
